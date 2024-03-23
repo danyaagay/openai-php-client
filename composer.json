@@ -57,6 +57,12 @@
             "php-http/discovery": false
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/danyaagay/openai-php-client"
+        }
+    ],
     "scripts": {
         "lint": "pint -v",
         "refactor": "rector --debug",
